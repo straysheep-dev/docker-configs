@@ -31,8 +31,10 @@ Additional notes and usage information can be found on my blog:
 You can add as many `-name: <name>` sections under `platforms:` for as many OS's you'd like to test on as needed.
 
 > [!NOTE]
-> - With `pre_build_image: false` this will always build the image locally using the specified Dockerfile.
-> - `systemd`-enabled containers running with `cgroupns_mode: host` and `privileged: true` ***can compromise the host***
+> With `pre_build_image: false` this will always build the image locally using the specified Dockerfile.
+
+> [!WARNING]
+> `systemd`-enabled containers running with `cgroupns_mode: host` and `privileged: true` ***can compromise the host***
 
 An example [molecule.yml file](https://ansible.readthedocs.io/projects/molecule/getting-started/#inspecting-the-moleculeyml):
 

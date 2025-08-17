@@ -34,7 +34,7 @@ You can add as many `-name: <name>` sections under `platforms:` for as many OS's
 > With `pre_build_image: false` this will always build the image locally using the specified Dockerfile.
 
 > [!WARNING]
-> `systemd`-enabled containers running with `cgroupns_mode: host` and `privileged: true` ***can compromise the host***
+> `systemd`-enabled containers running with `cgroupns_mode: host` and `privileged: true` ***can compromise the host***. Even if you trust what the container is running it's best to use a development environment (VM) for building and testing.
 
 An example [molecule.yml file](https://ansible.readthedocs.io/projects/molecule/getting-started/#inspecting-the-moleculeyml):
 

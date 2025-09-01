@@ -2,6 +2,9 @@
 
 Various docker configuration files.
 
+> [!NOTE]
+> Pull the latest changes from each submodule with: `git submodule foreach 'git pull'`
+
 This project is similar to [straysheep-dev/packer-configs](https://github.com/straysheep-dev/packer-configs). The primary use-case is for CI/CD with [molecule](https://ansible.readthedocs.io/projects/molecule/getting-started/) to automate testing of Ansible roles across multiple operating systems from one development machine.
 
 `systemd`-enabled containers are supported here across the major distros (and where possible). See the sources in the [references](#references) below for more details and examples of this.

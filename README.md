@@ -3,9 +3,7 @@
 Various docker configuration files.
 
 > [!NOTE]
-> Set each submodule's branch with: `git submodule set-branch --branch <branch> ./path/to/submodule` (don't include a trailing slash `/` in the path)
->
-> Pull the latest changes for each submodule with: `git submodule foreach 'git pull'`
+> For managing submodules, see [straysheep.dev/blog/resources/#git](https://straysheep.dev/blog/2019/07/15/-resources/#git)
 
 This project is similar to [straysheep-dev/packer-configs](https://github.com/straysheep-dev/packer-configs). The primary use-case is for CI/CD with [molecule](https://ansible.readthedocs.io/projects/molecule/getting-started/) to automate testing of Ansible roles across multiple operating systems from one development machine.
 

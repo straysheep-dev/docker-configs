@@ -1,9 +1,12 @@
 [submodule "dockerfiles-fedora"]
 	path = dockerfiles-fedora
 	url = git@github.com:straysheep-dev/dockerfiles-fedora.git
+	branch = main
 [submodule "dockerfiles-ubuntu"]
 	path = dockerfiles-ubuntu
 	url = git@github.com:straysheep-dev/dockerfiles-ubuntu.git
+	branch = main
 [submodule "dockerfiles-debian"]
 	path = dockerfiles-debian
 	url = git@github.com:straysheep-dev/dockerfiles-debian.git
+	branch = main

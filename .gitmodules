@@ -10,3 +10,11 @@
 	path = dockerfiles-debian
 	url = git@github.com:straysheep-dev/dockerfiles-debian.git
 	branch = main
+[submodule "dockerfiles-kali"]
+	path = dockerfiles-kali
+	url = git@github.com:straysheep-dev/dockerfiles-kali.git
+	branch = main
+[submodule "dockerfiles-rocky"]
+	path = dockerfiles-rocky
+	url = git@github.com:straysheep-dev/dockerfiles-rocky.git
+	branch = main

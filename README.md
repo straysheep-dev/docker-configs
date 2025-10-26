@@ -3,7 +3,7 @@
 Various docker configuration files.
 
 > [!NOTE]
-> For managing submodules, see [straysheep.dev/blog/resources/#git](https://straysheep.dev/blog/2019/07/15/-resources/#git)
+> To update submodules, do: `git submodule update --remote --recursive`, see [straysheep.dev/blog/resources/#git](https://straysheep.dev/blog/2019/07/15/-resources/#git)
 
 This project is similar to [straysheep-dev/packer-configs](https://github.com/straysheep-dev/packer-configs). The primary use-case is for CI/CD with [molecule](https://ansible.readthedocs.io/projects/molecule/getting-started/) to automate testing of Ansible roles across multiple operating systems from one development machine.
 
